@@ -1,6 +1,11 @@
 * {
     text-align: center;
     background-color: lightgray;
+    
+}
+
+body {
+    width: 100%;
 }
 
 header {
@@ -8,6 +13,7 @@ header {
     margin-bottom: 20px;
     background-color: rgb(243, 174, 237);
     width: 100%;
+    box-sizing: border-box;
 
 }
 
@@ -16,6 +22,7 @@ nav {
     margin-bottom: 20px;
     background-color: rgb(243, 174, 237);
     width: 100%;
+    box-sizing: border-box;
 }
 
 section {
@@ -38,6 +45,7 @@ article {
     padding: 10px;
     text-align: center;
     margin: 0 auto;
+    margin-left: 35px;
 }
 
 h1 {
@@ -55,15 +63,15 @@ p {
     background-color: rgb(243, 174, 237);
     width: 80%;
     padding: 10px;
-    
+    margin-left: 20px;
 
 }
 
 aside {
     float: right;
-    width: 35%;
+    width: 40%;
     background-color: rgb(243, 174, 237);
-    margin-left: 30px;
+    
     margin-bottom: 20px;
     padding: 20px;
     height: 200px;
@@ -75,6 +83,7 @@ footer {
     width: 100%;
     margin-top: 20px;
     clear: both;
+    box-sizing: border-box;
 
    
 }
